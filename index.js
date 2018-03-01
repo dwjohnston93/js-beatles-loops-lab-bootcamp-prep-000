@@ -16,6 +16,10 @@ function theBeatlesPlay(array1, array2) {
     } return output;
   }
   
+  function addOne(n){
+    n++
+  }
+  
   function iLoveTheBeatles(number){
     do {
       var output = [];
