@@ -18,12 +18,11 @@ function theBeatlesPlay(array1, array2) {
   
   
   var output = []; 
-  var i = 0; 
   function iLoveTheBeatles(number){
+    var i = number;
     do {
-      i++
+      i++;
       output.push("I love the Beatles!");
-      number++;
-    } while (addOne(number) <=15);
+    } while (i < 15);
     return output;
   }
