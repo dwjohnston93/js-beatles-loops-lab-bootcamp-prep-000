@@ -21,6 +21,7 @@ function theBeatlesPlay(array1, array2) {
   var i = 0; 
   function iLoveTheBeatles(number){
     do {
+      i++
       output.push("I love the Beatles!");
       number++;
     } while (addOne(number) <=15);
