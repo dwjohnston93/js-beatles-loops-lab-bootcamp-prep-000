@@ -17,8 +17,8 @@ function theBeatlesPlay(array1, array2) {
   }
   
   
-  var output = [];
-
+  var output = []; 
+  var i = 0; 
   function iLoveTheBeatles(number){
     do {
       output.push("I love the Beatles!");
