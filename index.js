@@ -11,7 +11,7 @@ function theBeatlesPlay(array1, array2) {
     var i=0;
     var output = [];
     while (i<facts.length){
-      output = facts[i] + "!!!"; 
+      output = [facts[i] + "!!!"]; 
       i++;
     } return output;
   }
