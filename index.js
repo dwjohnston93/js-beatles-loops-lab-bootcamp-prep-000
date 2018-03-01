@@ -17,7 +17,7 @@ function theBeatlesPlay(array1, array2) {
   }
   
   function addOne(n){
-    n++
+    return n++
   }
   
   function iLoveTheBeatles(number){
@@ -25,6 +25,6 @@ function theBeatlesPlay(array1, array2) {
       var output = [];
       output.push("I love the Beatles!");
       number++;
-    } while (addOne());
+    } while (addOne(number) <=15);
     return output;
   }
